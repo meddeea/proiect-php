@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: #77aaff 3px solid;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul {
+    padding: 0;
+    list-style: none;
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+header #branding {
+    float: left;
+}
+header #branding h1 {
+    margin: 0;
+}
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+.content {
+    padding: 20px;
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.content h1, .content h2 {
+    color: #333;
+}
+.form-container {
+    display: flex;
+    justify-content: space-between;
+}
+.form-container .form-box {
+    width: 48%;
+}
+.form-container form div {
+    margin-bottom: 15px;
+}
+.form-container form label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-container form input, .form-container form select, .form-container form button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-container form select, .form-container form button {
+    width: auto;
+    display: inline-block;
+}
+.form-container form button {
+    padding: 10px 20px;
+}
+.content ul {
+    list-style: none;
+    padding: 0;
+}
+.content ul li {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content ul li form {
+    display: inline;
+}
+.content ul li button {
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.content ul li button:hover {
+    background: #c0392b;
+}
+.chart {
+    margin-top: 20px;
+}
+.chart-bar {
+    background: #3498db;
+    color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-align: right;
+    max-width: 100%;
+    box-sizing: border-box;
+}
